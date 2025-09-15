@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Error handling using try and catch</title>
+    </head>
+    <body>
+        <h2>Error handling using try and catch</h2>
+        <p id="alert_message"></p>
+        <script>
+           try{
+            addalert("Hello!")
+           } 
+           catch(alt){
+            document.getElementById("alert_message").innerHTML=alt.message
+           }
+        </script>
+    </body>
+</html>
